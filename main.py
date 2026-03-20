@@ -12,3 +12,6 @@ def read_test():
 @app.get("/greetings")
 def read_greetings():
     return {"message": "Hello! This is the new greetings endpoint."}
+@app.get("/nullclaw")
+def read_nullclaw():
+    return {"message": "Welcome to the NullClaw workspace, Zaki!"}
