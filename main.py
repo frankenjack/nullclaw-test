@@ -15,3 +15,7 @@ def read_greetings():
 @app.get("/nullclaw")
 def read_nullclaw():
     return {"message": "Welcome to the NullClaw workspace, Zaki!"}
+
+@app.get("/status")
+def read_status():
+    return {"status": "operational", "user": "Zaki"}
