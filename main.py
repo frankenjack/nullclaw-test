@@ -28,3 +28,7 @@ def read_info():
 def read_joi():
     return {"message": "Hello Zaki, Joi is here to help!"}
 
+
+@app.get("/hello")
+def read_hello():
+    return {"message": "Hello Zaki, how can I help you today?"}
