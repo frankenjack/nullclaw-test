@@ -20,3 +20,7 @@ def read_nullclaw():
 @app.get("/status")
 def read_status():
     return {"status": "operational", "user": "Zaki"}
+
+@app.get("/info")
+def read_info():
+    return {"info": "This is a new endpoint added by Joi."}
