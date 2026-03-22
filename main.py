@@ -24,3 +24,7 @@ def read_status():
 @app.get("/info")
 def read_info():
     return {"info": "This is a new endpoint added by Joi."}
+@app.get("/joi")
+def read_joi():
+    return {"message": "Hello Zaki, Joi is here to help!"}
+
